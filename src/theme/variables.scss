@@ -16,6 +16,8 @@ $text-color:        #000;
 $background-color:  #fff;
 
 
+
+
 // Named Color Variables
 // --------------------------------------------------
 // Named colors makes it easy to reuse colors on various components.
@@ -29,9 +31,23 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  header:	  #fff
 );
 
+$header: rgb(0, 85, 66);
+$headerTitle: #fff;
+$tileBackground: #aabd26;
+$tileTitleColor: #fff;
+$tileTitleIconColor: #fff;
+$toolbarBackground: rgb(0, 85, 66);
+$toolbarButtonColor: #fff;
+$toolbarButtonColorActive: #aabd26;
+
+
+.toolbar-title{
+	color: $headerTitle;
+} 
 
 // App iOS Variables
 // --------------------------------------------------

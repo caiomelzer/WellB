@@ -1,0 +1,25 @@
+page-apls {
+	ion-icon{
+		font-size: 7em !important;
+	}
+	.toolbar-background {
+		background-color: $header;
+	}
+	.toolbar-title{
+		color: $headerTitle;
+	} 
+	.card-background-page {
+		background-image: url('https://www.dcomercio.com.br/files/image/749/internas_dc-academia-int.jpg'); 
+		background-size: cover;
+		ion-card {
+			position: relative;
+			text-align: center;
+			background: $tileBackground;
+			color: $tileTitleIconColor;
+			.card-content p{
+				color: $tileTitleColor;
+			}
+		}
+
+	}
+}

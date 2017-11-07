@@ -1,3 +1,18 @@
 page-tabs {
+	.tabbar{
+		background: $toolbarBackground !important;
+		.tab-button {
+			color: $toolbarButtonColor;
+			.tab-button-icon {
+				color: $toolbarButtonColor;
+			}
+		}
+		.tab-button[aria-selected=true] {
+		    color: $toolbarButtonColorActive;
+		    .tab-button-icon {
+		    	color: $toolbarButtonColorActive;
+		    }
+		}
+	}
 
 }
